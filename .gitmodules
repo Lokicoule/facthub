@@ -1,0 +1,3 @@
+[submodule "facthub-backend"]
+	path = facthub-backend
+	url = https://github.com/Lokicoule/facthub-backend.git
