@@ -25,5 +25,5 @@
   - isolated apps with their own package.json
   - very configurable
 - cons
-  - harder to configure
+  - little harder to configure
 - Conclusion : best choice
