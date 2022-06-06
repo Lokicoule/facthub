@@ -35,13 +35,13 @@ $ pnpm add @apollo/subgraph
 - Services :
 
 ```bash
-$ npm start facthub-customer-application
-$ npm start facthub-order-application
-$ npm start facthub-product-application
+$ pnpm start facthub-customer-application
+$ pnpm start facthub-order-application
+$ pnpm start facthub-product-application
 ```
 
 - Gateway : services should be deployed.
 
 ```bash
-$ npm start
+$ pnpm start
 ```

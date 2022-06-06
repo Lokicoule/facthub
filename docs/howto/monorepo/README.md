@@ -26,4 +26,8 @@
   - very configurable
 - cons
   - little harder to configure
-- Conclusion : best choice
+- Conclusion : best choice but too much handy for our needs.
+
+## Conclusion
+
+We will use nest monorepo workspace tools.
