@@ -41,19 +41,19 @@ nest generate app facthub-warehouse
 ### Setup Libraries
 
 ```
-nest generate library facthub-persistence
+nest generate library facthub-repository
 ```
 
 ```
-nest generate library facthub-domain
+nest generate library facthub-entity
 ```
 
 ```
-nest generate library facthub-presentation
+nest generate library facthub-resolver
 ```
 
 ```
-nest generate library facthub-business
+nest generate library facthub-service
 ```
 
 ---

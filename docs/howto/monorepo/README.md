@@ -8,7 +8,7 @@
   - easy to add lib
 - cons
   - one package.json
-  - hard to configure for our needs
+  - can be hard to configure for our needs
 - Conclusion : easy to use but services are not purely isolated
 
 ## NX
@@ -17,6 +17,7 @@
 - cons
   - one package.json
   - own cli
+  - <bold>used by nestjs</bold>
 - Conclusion : services not isolated
 
 ## Turborepo
@@ -30,4 +31,4 @@
 
 ## Conclusion
 
-We will use nest monorepo workspace tools.
+We will use nest monorepo workspace tools, despite the lack of isolation.
