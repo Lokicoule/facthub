@@ -2,30 +2,74 @@
 
 ## Generate apps & libs
 
-```bash
-$ nest new facthub-gateway
-$ cd facthub-gateway
-$ nest generate app facthub-user-application
-$ nest generate app facthub-customer-application
-$ nest generate app facthub-product-application
-$ nest generate app facthub-order-application
-$ nest generate app facthub-transporter-application
-$ nest generate app facthub-warehouse-application
+### Setup project
 
-$ nest generate library facthub-core-lib
-$ nest generate library facthub-auth-lib
+```
+ nest new facthub-gateway
+```
+
+### Setup apps
+
+```
+cd facthub-gateway
+```
+
+```
+nest generate app facthub-user
+```
+
+```
+nest generate app facthub-customer
+```
+
+```
+nest generate app facthub-product
+```
+
+```
+nest generate app facthub-order
+```
+
+```
+nest generate app facthub-transporter
+```
+
+```
+nest generate app facthub-warehouse
+```
+
+### Setup Libraries
+
+```
+nest generate library facthub-persistence
+```
+
+```
+nest generate library facthub-domain
+```
+
+```
+nest generate library facthub-presentation
+```
+
+```
+nest generate library facthub-business
 ```
 
 ---
 
 ## Install graphql packages
 
-```bash
-$ pnpm add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+```
+pnpm add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+```
 
-$ pnpm add @apollo/federation @apollo/gateway
+```
+pnpm add @apollo/federation @apollo/gateway
+```
 
-$ pnpm add @apollo/subgraph
+```
+pnpm add @apollo/subgraph
 ```
 
 ---
@@ -34,10 +78,16 @@ $ pnpm add @apollo/subgraph
 
 - Services :
 
-```bash
-$ pnpm start facthub-customer-application
-$ pnpm start facthub-order-application
-$ pnpm start facthub-product-application
+```
+pnpm start facthub-customer-application
+```
+
+```
+pnpm start facthub-order-application
+```
+
+```
+pnpm start facthub-product-application
 ```
 
 - Gateway : services should be deployed.
